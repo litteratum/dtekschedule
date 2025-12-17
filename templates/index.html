@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DTEK Schedule</title>
+</head>
+
+<body>
+    <h1>Графік ДТЕК</h1>
+    <img src="{{ url_for('static', filename=user ~ '_today.png') }}" alt="Today">
+    <br>
+    <img src="{{ url_for('static', filename=user ~ '_tomorrow.png') }}" alt="Tomorrow">
+</body>
+
+</html>
