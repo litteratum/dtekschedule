@@ -117,7 +117,7 @@ def main():
     )
     house_item.click()
 
-    _WEBDRIVER.execute_script("window.scrollBy(0, 350);")
+    _WEBDRIVER.execute_script("window.scrollBy(0, 245);")
     time.sleep(0.5)
     _WEBDRIVER.save_screenshot(os.path.join(_STATIC_DIR, f"{_CONFIG.user}_today.png"))
 
